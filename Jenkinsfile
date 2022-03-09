@@ -3,8 +3,8 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is John from 3D Project'
-                        echo 'We are Starting the Testing'
+                        echo 'Hi, this is John from 5D Project'
+                        echo 'We are Starting the new Testing'
                   }
             }
             stage('Build') {
