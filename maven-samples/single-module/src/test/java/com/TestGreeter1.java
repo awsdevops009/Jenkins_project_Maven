@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.lessThan;
 import static org.junit.Assert.assertThat;
 import static org.junit.matchers.JUnitMatchers.containsString;
 
-public class TestGreeter1 {
+public class TestGreeter {
 
   private Greeter greeter;
 
@@ -43,7 +43,7 @@ public class TestGreeter1 {
 
   @Test
   public void greetShouldIncludeGreetingMessage1() {
-    String someone = "Hello , Welcome4   ";
+    String someone = "Hello , This is example for POLLSCM and Github webhook added & added PR";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
     
